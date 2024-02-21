@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const keep_alive = require('./keep_alive.js')
 
 app.listen(3000, () => {
   console.log("Project is running!");
