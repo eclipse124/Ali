@@ -39,6 +39,8 @@ client.on("message", message => {
     message.channel.send("I don't know, probably someone from your school?");
   } else if (message.content === "right?") {
     message.channel.send("yep");
+  }  else if (message.content === "show me true rizz") {
+    message.channel.send("if you wanna know true rizz find me and all of the hoes I got on my dick 😎");
   }
 });
 
