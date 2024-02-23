@@ -41,7 +41,8 @@ client.on("message", message => {
     message.channel.send("yep");
   } else if (message.content === "show me true rizz") {
     message.channel.send("if you wanna know true rizz find me and all of the hoes I got on my dick 😎");
-  }
+  }  else if (message.content === "princess who") {
+    message.channel.send("sam's the princess and I'm his prince");
 });
 
 client.login(process.env.token);
